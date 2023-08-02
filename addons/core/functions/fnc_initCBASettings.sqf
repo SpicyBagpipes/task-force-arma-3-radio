@@ -28,6 +28,14 @@
     2
 ] call CBA_Settings_fnc_init;
 [
+    "TFAR_default_proximityVolume",
+    "SLIDER",
+    ELSTRING(settings,default_proximityVolume),
+    localize ELSTRING(settings,clientside),
+    [0.1, 5, 1, 0],
+    2
+] call CBA_Settings_fnc_init;
+[
     "TFAR_volumeModifier_forceSpeech",
     "CHECKBOX",
     [ELSTRING(settings,directSpeechModifier), ELSTRING(settings,directSpeechModifier_desc)],
